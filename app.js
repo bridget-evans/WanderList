@@ -142,12 +142,19 @@ function loadList() {
 // Optional: Random travel quote generator
 function showRandomQuote() {
   const quotes = [
-    "Not all those who wander are lost. — J.R.R. Tolkien",
-    "Travel far enough, you meet yourself. — David Mitchell",
-    "Life is short and the world is wide.",
-    "The journey, not the arrival, matters. — T.S. Eliot",
-    "Jobs fill your pockets, but adventures fill your soul.",
-    "Take only memories, leave only footprints. — Chief Seattle",
+    "'Not all those who wander are lost.' — J.R.R. Tolkien",
+    "'Travel far enough, you meet yourself.' — David Mitchell",
+   //"Life is short and the world is wide.",
+    "'The journey, not the arrival, matters.' — T.S. Eliot",
+   // "Jobs fill your pockets, but adventures fill your soul.",
+    "'Take only memories, leave only footprints'. — Chief Seattle",
+    "'Travel far, travel often, and travel without regrets.' - Oscar Wilde",
+    "'Travel brings power and love back into your life.' - Rumi",
+    "'The core of mans' spirit comes from new experiences.' - Jon Krakauer, Into the Wild",
+    "'A good traveler has no fixed plans, and is not intent on arriving.' - Lao Tzu",
+    "'The world is a book, and those who don't travel read only one page.' - St. Augustine",
+    "'A ship in harbor is safe, but that is not what ships are built for' - John A. Shedd",
+    "'It is better to travel than to arrive.' - Buddha",
   ];
 
   const randomIndex = Math.floor(Math.random() * quotes.length);
